@@ -35,6 +35,7 @@ type
     DataSource2: TDataSource;
     Auth: TADOQuery;
     procedure Button1Click(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
   private
     { Private declarations }
   public
@@ -83,6 +84,11 @@ showmessage('Авторизация не удалась, проверьте введенные данные')
 
   end;
 
+end;
+
+procedure TMainForm.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+Application.Terminate;
 end;
 
 end.

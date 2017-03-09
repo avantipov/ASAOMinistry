@@ -19,6 +19,7 @@ type
     Label10: TLabel;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -32,12 +33,18 @@ implementation
 
 {$R *.dfm}
 
-uses Unit1, Unit3;
+uses Unit1, Unit3, Unit4;
 
 procedure TMenuSPO.Button1Click(Sender: TObject);
 begin
 MenuSPO.Hide;
-Form3.show;
+PriemSPO.show;
+end;
+
+procedure TMenuSPO.Button2Click(Sender: TObject);
+begin
+MenuSPO.Hide;
+AttestSPO.show;
 end;
 
 procedure TMenuSPO.FormClose(Sender: TObject; var Action: TCloseAction);

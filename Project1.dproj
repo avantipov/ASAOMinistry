@@ -106,7 +106,19 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="Unit3.pas">
-            <Form>Form3</Form>
+            <Form>PriemSPO</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Unit4.pas">
+            <Form>AttestSPO</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Unit5.pas">
+            <Form>AddAttestSPO</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Unit6.pas">
+            <Form>Form6</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">
